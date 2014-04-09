@@ -68,7 +68,7 @@ bool Game::init()
         return false;
     }
     _background1->setAnchorPoint(ccp(0,0));
-
+    _background1->setPosition(ccp(0,0));
     this->addChild(_background1);
     
     _background2->setAnchorPoint(ccp(0,0));
